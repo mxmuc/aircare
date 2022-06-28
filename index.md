@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Do People With Different Ideologies Speak Differently?
-subtitle: How group divisions manifest themselves in language analyzed using the example of climate change
-cover-img: "/assets/img/background-us-congress-inside.jpeg"
+title: AirCare
+subtitle: We Make Jet Engine Maintenance Smart, Comprehensible and Hassle Free
+cover-img: "/assets/img/jet-engine-header.png"
 full-width: false
 ---
 
