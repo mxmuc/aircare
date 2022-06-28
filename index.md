@@ -169,7 +169,7 @@ Even if our project only touched the surface of understanding the causes and con
 <br />
 
 {: style="text-align: center" }
-AirCare was realised in 2022 as part of the ["Tech Challenge" (CS-401)](https://academy.unternehmertum.de/programs/tech-challenge) at the [Technical University of Munich (TUM)](https://www.tum.de/en/)
+AirCare was realised in 2022 as part of the [Tech Challenge](https://academy.unternehmertum.de/programs/tech-challenge) at the [Technical University of Munich (TUM)](https://www.tum.de/en/)
 
 
 
