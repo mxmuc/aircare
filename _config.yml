@@ -15,11 +15,11 @@ full-width: true
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Introduction: "#introduction"
-  Climate Change in US Politics: "#climatechangeinuspolitics"
-  Quote Similaritiy: "#quotesimilarity"
-  Topic Detection: "#topicdetection"
-  Semantic Analysis: "#semanticanalysis"
+  Problem: "#problem"
+  Solution: "#solution"
+  Customer Value Proposition: "#cvp"
+  Market: "#market"
+  Download: "#download"
 
 # --- Logo --- #
 

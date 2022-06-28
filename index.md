@@ -6,7 +6,7 @@ cover-img: "/assets/img/jet-engine-header.png"
 full-width: false
 ---
 
-## Introduction <a name="introduction"></a>
+## Problem <a name="problem"></a>
 
 {: style="text-align: justify" }
 One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems.
@@ -16,7 +16,7 @@ Using the example of climate change, this data story aims to provide evidence th
 <br />
 <br />
 
-## Climate Change in US Politics <a name="climatechangeinuspolitics"></a>
+## Solution <a name="solution"></a>
 
 {: style="text-align: justify" }
 Starting from an initial preprocessing and filtering phase, which consists in discarding quotes delivered from speakers not affiliated with either Republicans or Democrats together with quotes from speakers who changed political parties between 2015 and 2020, we focus on a remodeled dataset containing **5,286,461 quotations**. Out of these, **2,528,204** are from **Republicans** and **2,758,257** from **Democrats**.
@@ -61,7 +61,7 @@ Furthermore, the peak for Democrats i.e., the period where the ratio is at its m
 <br />
 <br />
 
-## Quote Similarity <a name="quotesimilarity"></a>
+## Customer Value Proposition <a name="cvp"></a>
 
 {: style="text-align: justify" }
 Getting a deeper understanding of how polarization manifests itself in language, we use `BERT’s pre-trained Sentence Transformer` to embed the quotations into numerical arrays of the same length (768 digits). With these embeddings as a vantage point, we could now use similarity metrics such as the cosine similarity to investigate within-party and between-party polarization. The evaluated cosine similarity yields a continuous number between 0 and 1, with a higher value indicating a higher similarity. It's worth noticing that the similarity metric presented is more precisely a semantic similarity between 2 sentences (i.e., how similar is their meaning).
@@ -95,7 +95,7 @@ The second step instead consisted in looking at quote similarities at **person l
 <br />
 <br />
 
-## Topic Detection <a name="topicdetection"></a>
+## Market <a name="market"></a>
 
 {: style="text-align: justify" }
 There are several aspects and subtopics about how one can discuss climate change. To detect underlying topics and affiliate quotes with their dominant topic, we followed a structured workflow to build an insightful model based on the **Latent Dirichlet Allocation (LDA) algorithm**. Before creating the topic model using `gensim's native LdaModel` library, we  cleaned and tokenized the quotes and additionally added bigrams to the model.
@@ -138,7 +138,7 @@ Below figure visualizes the share of quotes by party affiliation and gender for 
 <br /> 
 <br /> 
 
-## Semantic Analysis <a name="semanticanalysis"></a>
+## Download <a name="download"></a>
 #### Are Democrats Really More Concerned About Climate Change Than Republicans?
 
 {: style="text-align: justify" }
@@ -169,7 +169,7 @@ Even if our project only touched the surface of understanding the causes and con
 <br />
 
 {: style="text-align: center" }
-This project was realised in 2021 as part of the course ["Applied data analysis" (CS-401)](https://dlab.epfl.ch/teaching/fall2021/cs401/) at the [Swiss Federal Institute of Technology in Lausanne (EPFL)](https://www.epfl.ch/en/)
+AirCare was realised in 2022 as part of the ["Tech Challenge" (CS-401)](https://academy.unternehmertum.de/programs/tech-challenge) at the [Technical University of Munich (TUM)](https://www.tum.de/en/)
 
 
 
