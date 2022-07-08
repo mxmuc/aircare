@@ -6,58 +6,43 @@ cover-img: "/assets/img/jet-engine-header.png"
 full-width: false
 ---
 
-## Problem <a name="problem"></a>
+## Problem & Customer Need <a name="problem"></a>
 
 {: style="text-align: justify" }
-One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems.
+Travelling by airplane is one of the fastest and most convenient ways to journey along long distances. To make flights as secure as possible, frequent maintenance is needed. As a vital part of the airplane, engines must go through maintenance either after a certain amount of flight hours or if damages occur.
 
 {: style="text-align: justify" }
-Using the example of climate change, this data story aims to provide evidence that the discussion around this phenomenon is highly polarized and that this polarization is motivated by differences between socio-political subgroups. To achieve this, we extracted quotations related to climate change that have been uttered by Democrats and Republicans between 2015 and 2020 from the quotebank dataset. We then enriched these quotations with socio-demographic data and clustered the quotation embeddings as a means to identify prominent topics. Measuring within-topic and between-topic group affiliation, our work aims to contribute to a deeper understanding of how group divisions manifest themselves in language.
+To conduct the maintenance, the airplane engine has to be dissassembled into all its parts. Thereafter, every part is checked, cleaned, fixed or replaced. Finally, the engine is reassembled and thoroughly tested. However, **75%** of all airplane engine test after maintenance fail due to leakages of air, oil or fuel. Most of these leakages are caused by human error during assembly. The four most common sources of these human errors are:
+* missed steps or steps done wrong during reassembly
+* use of wrong parts or configurations
+* use of damaged parts (e.g. damaged sealings)
+* contamination of parts or surfaces (e.g. by dirt or lint)
+
+{: style="text-align: justify" }
+These failed tests are very costly to enigne maintenance providers like MTU Maintenance due to a number of reasons. The three most impactful ones are:
+* testing an engine takes up valuable time in the testing cells. 
+* if the engine fails a test it must be dissassembled, checked and reassembled again- this may take up to two shifts time and it is not ensured that further error can be prevented while reassembling the engine for the second time
+* failed tests are an environmental hazard: during the test, real resources like oil and fuel are being used. If an eninge fails the test, these resources are wasted.
 <br />
 <br />
 
-## Solution <a name="solution"></a>
+## Our Solution <a name="solution"></a>
 
 {: style="text-align: justify" }
-Starting from an initial preprocessing and filtering phase, which consists in discarding quotes delivered from speakers not affiliated with either Republicans or Democrats together with quotes from speakers who changed political parties between 2015 and 2020, we focus on a remodeled dataset containing **5,286,461 quotations**. Out of these, **2,528,204** are from **Republicans** and **2,758,257** from **Democrats**.
-
-![Quotes Per Party](/assets/img/quotes_per_party_initial.png){:class="displayed"}
+We provide a digital and smart solution, that is especially tailored to fit the needs of airplane engine maintenance providers. Our App can be used to  track the work done by mechanics, make the specific worksteps more comprehensible, collect data on issues and raise awareness about difficult tasks. Team Leads are able to assigne tasks quickly and plan workloads and resource occupations accordingly. This will enable teams to track their work progress in real-time. 
 
 {: style="text-align: justify" }
-Grouping by speaker for further analysis, we obtained quotations from **15,826 different speakers (7,899 of which are Republicans and 7,972 Democrats)**. Hence, the two sets are balanced.
+With our App, we provide mechanics with all the details they need to know and track assembly progress to identify mistakes while they are being made. Hence, airplane enigne assembly will become more efficient. Human error as well as common problems like leakages of oil, fuel or air will be minimized and  errors during assembly will be reduced.
 
-![Quotes Per Speaker](/assets/img/quotes_per_speaker_rep_dem.png){:class="displayed"}
+![Have a glimpse into our App!](/assets/img/app_mockup1.png){:class="displayed"}
 
-{: style="text-align: justify" }
-Analyzing the gender ratio, it is noticeable that female speakers are significantly less quoted than the male speakers, but they are more frequent in the Democrats than in the Republican party.
-In particular, only 16.56% of the Republican quotes are delivered by women, whereas the percentage raises to 34.50% in the Democratic party.
-
-#### Climate Change Topic Selection
-
-{: style="text-align: justify" }
-In order to better focus on the wide reasearch question, we decided to concentrate our exploration on **climate change** related quotations only. Here the division between the two parties visibly changes. The dataset becomes unbalanced, as shown below. There are significantly more quotes from Democrats compared to Republicans. This is a first indication that Democrats discuss climate change more than Republicans.
-
-![Climate Change Quotes Per Party](/assets/img/climate_change_quotes_per_party.png){:class="displayed"}
-
-
-#### How Often Do Republicans and Democrats Talk About Climate Change ?
-
-{: style="text-align: justify" }
-By analyzing the time series of the ratio of climate change related quotes over the total number of quotes, we can observe how often the topic was covered by these politicians throughout 2015-2020.
-
-{: style="text-align: justify" }
-The following plot visualizes the share of climate change quotes as a time series on a day-by-day base. The ratio is shown in log-scale.
-
-![Quotes Per Day](/assets/img/time_series_day.png){:class="displayed"}
-
-{: style="text-align: justify" }
-We can now confirm that Democrats talk more often about climate change than Republicans. To better display this difference, we decided to change the granularity from day to month, being the most reasonable choice. The difference is now clearly visible.
-
-![Quotes Per Month](/assets/img/time_series_month.png){:class="displayed"}
-
-{: style="text-align: justify" }
-The Republicans have talked more about climate change only during three short time periods. Diving deeper into these three points could be an interesting starting point for future research.
-Furthermore, the peak for Democrats i.e., the period where the ratio is at its maximum value, corresponds to the minimum for Republicans. This fact already suggests that some way of polarization in topic selection occurred.
+Our App compromises 6 key features to guarantee ease of use and the best support possible during maintenance:
+* *Smart and Mobile*: Our App can be used on any mobile device and is a multi-facetted and convenient platform for the engineers to use directly at their workstation. We include a knowledge hub to collect all information about steps and make smart assignment of open tasks to the next free resource possible
+* *Digital*: we significantly reduce the amount of paper used and shift all documentation to our digitzed platform
+* *Data Collection & Feedback*: we can track which steps and parts have caused issues in the past. This enables us to statistically analyze the assembly and give warnings to mechanics for the most critical steps
+* Comprehensible: The app is easy to understand and use and will not create any additional workload compared to the previous paper documentation
+* *Task Facilitation*: our first language will be german as most engineers speak german as their mother language. The app will give engineers a clear overview over their tasks, all in one place, and will assist throughout tasks with references to mastercards and tips for completing the steps
+* *Task Validation*: every mechanic has to confirm the work he has done after finalization of a step
 <br />
 <br />
 
