@@ -34,8 +34,10 @@ We provide a digital and smart solution, that is especially tailored to fit the 
 {: style="text-align: justify" }
 With our App, we provide mechanics with all the details they need to know and track assembly progress to identify mistakes while they are being made. Hence, airplane enigne assembly will become more efficient. Human error as well as common problems like leakages of oil, fuel or air will be minimized and  errors during assembly will be reduced.
 
+#### Have a glimpse into our App!
 ![Have a glimpse into our App!](/assets/img/app_mockup1.png){:class="displayed"}
 
+{: style="text-align: justify" }
 Our App compromises 6 key features to guarantee ease of use and the best support possible during maintenance:
 * *Smart and Mobile*: Our App can be used on any mobile device and is a multi-facetted and convenient platform for the engineers to use directly at their workstation. We include a knowledge hub to collect all information about steps and make smart assignment of open tasks to the next free resource possible
 * *Digital*: we significantly reduce the amount of paper used and shift all documentation to our digitzed platform
@@ -49,109 +51,54 @@ Our App compromises 6 key features to guarantee ease of use and the best support
 ## Customer Value Proposition <a name="cvp"></a>
 
 {: style="text-align: justify" }
-Getting a deeper understanding of how polarization manifests itself in language, we use `BERT’s pre-trained Sentence Transformer` to embed the quotations into numerical arrays of the same length (768 digits). With these embeddings as a vantage point, we could now use similarity metrics such as the cosine similarity to investigate within-party and between-party polarization. The evaluated cosine similarity yields a continuous number between 0 and 1, with a higher value indicating a higher similarity. It's worth noticing that the similarity metric presented is more precisely a semantic similarity between 2 sentences (i.e., how similar is their meaning).
+Our platform enables customers to digitally track their maintenance and the processes involved in real-time. We are able to provide mechanics with integrated feedback and maintenance manual instructions for checklists and are able to collect data while doing so. 
 
 {: style="text-align: justify" }
-Our first step along the NLP path yielded the following results:
+AirCare is a unique digital solution in the Maintenance, Repair and Overhaul (MRO) Segment of Enigine Maintenance. We can guarantee that the human error factor during assembly is minimized by providing a unique combination of three key benefits:
 
-- On average quotations uttered by _Democrats_ have a higher similarity with each other than with any other socio-political subgroup. We therefore conclude a **low within-party polarization within the _Democratic party_ when looking at climate change**
-
-- The average quote similarity within the _Republican party_ is even lower than the similarity between the two parties. This indicates that **discussions around climate change are highly polarized amongst _Republicans_**
-<br />
-<br />
-<br />
-
-:-------------------------:|:-------------------------:
-![Similarity Distribution](/assets/img/similarity_frequency.png){:class="displayed"}  |  ![Similarity Between Within](/assets/img/similarity_between_within.png){:class="displayed"}
-
-<br />
+#### Our Unique Selling Point
+![Our Unique Selling Point](/assets/img/USP.png){:class="displayed"}
 
 {: style="text-align: justify" }
-Making everything more tangible, we look at the top three speakers for each party, whose quotes have the highest within-party and between-party similarity. Looking at the Democrats - interestingly - **high-ranking politicians** such as the former president Bill Clinton, US representative Adam Schiff and senator Richard Blumenthal **lead the similarity ranking - both within their own party and between parties**. We can only hypothesize about this effect being linked to an overwhelming amount of quotes for these politicians and their mediator role. Even the top three Republicans, former governor of Ohio John Kasich, US representative Fred Upton and governor of New Hampshire Chris Sununu have a higher between-party similarity than within-party similarity. This again underlines the **high polarization within the Republican party**.
-<br />
-<br />
-
-![Top 3 Speakers Similarity](/assets/img/top_3_similarities.png){:class="displayed"}
-<br />
-<br />
+Firstly, we can eliminate knowledge of mechanics that might occur during assembly by integrating the assembly instructions in the form of mastercards directly into the tasks in AirCare's workflow. If the mechanics proceed to the next task, they will recive reminders about critical steps and all information needed to complete the task in the best way possible. If a mechanic wants to access more information, they can always have a look into the mastercard which is also linked to the specific steps. This ensures a high standard of task completion, while also reminding mechanics of the features of a task. In case a mastercard is updated, AirCare will automatically remind the enigneer to have look at the changes.
 
 {: style="text-align: justify" }
-The second step instead consisted in looking at quote similarities at **person level**. Again using cosine similarity, we are able to construct a similarity matrix storing similarities for all possible speaker-to-speaker combinations. Considering that at this point the number of speakers was of exactly 5,442, still very high, plotting them is neither useful nor pretty. We instead present an interactive undirected network graph, showing the **top-3 similarities for the 50 most talkative persons from each party**. [Play around with it](https://mxmuc.github.io/do-people-with-different-ideologies-speak-differently/assets/html/person_lvl_similarity.html) for as long as you want. The network was created using `pyvis` library and some good ol' `javascript`.
+Secondly, we support mechanics in the correct completion of repetitive tasks. Completing a task can be like riding a bike: The more often you do it, the more it becomes "muscle memory" and the easier it is to just do it without thinking about the specific steps involved. However during enigne maintenance, it is critical that the engineer stays focussed. With AirCare, we include small check ins and little quizzes to ensure that maintenance never gets boring for the mechanics.
+
+{: style="text-align: justify" }
+Thirdly, the mixup of Parts and Instructions will be reduced with the use of AirCare. If a part is very similar to another part, we will show pictures to emphasize which part and hich specifc configuration to use. In the future, this will become even more hassle free: AI sensors will be able to scan the part directly from the app, to confirm that the right part is used. For the Instructions we follow a similar approach: The right instructions steps will be directly linked to a task, so that the mechanic will not have to spend any time on finding the right page in a lengthy manual.
+
+{: style="text-align: justify" }
+By controlling the processes and operations as well as granting a comprehensible and easy way of ensuring the right steps or the maintenance provess are completed, our customer save time and reources. And best of all, by being a digital solution and drastically reducing the amount of paper in the workshop, we are also environmentally friendly!
 <br />
 <br />
 
-## Market <a name="market"></a>
+## Market & Differentiation <a name="market"></a>
 
 {: style="text-align: justify" }
-There are several aspects and subtopics about how one can discuss climate change. To detect underlying topics and affiliate quotes with their dominant topic, we followed a structured workflow to build an insightful model based on the **Latent Dirichlet Allocation (LDA) algorithm**. Before creating the topic model using `gensim's native LdaModel` library, we  cleaned and tokenized the quotes and additionally added bigrams to the model.
-{: style="text-align: justify" }
-We were able to group the quotations around **three distinct topics**. The word cloud below with the size of the words proportional to the weight gives an overview about the content of each topic. While topics 1 and 3 are closely related to the discussion about climate change, topic 2 is centered around oil and its economic aspects.
-{: style="text-align: justify" }
-If the charts below are not yet enough for you, feel free to play around with our [interactive topic visualization](https://mxmuc.github.io/do-people-with-different-ideologies-speak-differently/assets/html/climate_change_topics_lda.html) using `pyLDAvis`.
-<br /> 
-<br /> 
-
-![Topic Word Cloud](/assets/img/topic_word_cloud.png){:class="displayed"}
-<br /> 
-
-![Topic Word Count and Importance](/assets/img/topic_word_count_important_keywords.png){:class="displayed"}
-
-![Cluster Topics](/assets/img/topic_cluster_bokeh.png){:class="image-box"}
-
-<br /> 
-<br /> 
-
-#### What Are the Most Discussed Topics Among Democrats and Republicans?
+In 2022 the global MRO market will be valued at USD 78.6 billion. With a projected growth of 61.5% over the next 10 years, the global MRO market is estimated to grow to a total of USD 126.9 billion by 2032. Within the global MRO market, enigne maintenatce is the segment with the highest growth over the next decade. While being valued at USD 34.1 billion in 2022, the segment is projected to grow by 91.8% to a total of USD 65.4 billion by 2032. To find more information about the MRO market size and segments, have a look at the [Oliver Wyman global fleet & MRO market forecast 2022–2032](https://www.oliverwyman.com/our-expertise/insights/2022/feb/global-fleet-and-mro-market-forecast-2022-2032.html).
 
 {: style="text-align: justify" }
-As we were faced with an imbalanced dataset containing significantly more quotes for Democrats and Men, we balanced the four socio-political subgroups using [Random Oversampling](https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/). Through randomly duplicating examples in the minority class (i.e., Republicans and Women), we obtained four subgroups with the same amount of quotes. Looking now at the representation of each subgroup in the different topics, we gain a deeper understanding in how group divisions manifest themselves in the topics discussed. 
+By Interviewing Industry Experts, we were able to differentiate AirCare in the MRO Market from solutions used by our competitors. In cooperation with SAP, GE Aviation was able to develop a maintenance tracking platform a few years ago. However, AirCare is able to differentiate itself and improve the customer value: Compared to competitors solutions, we offer IOT connectivity, integrated maintenance nstructions for check lists and integrated mechanics feedback.
 
-- The _gender_ of the speaker has no relevant impact on which aspect of climate change is discussed
+#### Comparison of AirCare Key Differentiation Aspects
+![Comparison of AirCare Key Differentiation Aspects](/assets/img/Competitor_comparison.png){:class="displayed"}
 
-- The _party_ _affiliation_ of a speaker has a strong impact on the way they discuss climate change
-
-- _Democrats_ tend to be more worried about the effect of climate change on our future. Whereas _Republicans_ tend to center their discussions around fossil fuels (e.g., oil and coal) and the economic impact of an energy transition 
-
-- _Democrats_ discuss climate change more frequently than _Republicans_
-
-Below figure visualizes the share of quotes by party affiliation and gender for each topic after oversampling. If all topics would be equally frequent discussed between the different socio-political subgroups, all slices would be of same size (i.e., 25%)
-
-<br />
-
-![Topic Pie Chart Oversampled by Party and Gender](/assets/img/topic_pie_party_gender_oversampled.png){:class="displayed"}
-<br /> 
+{: style="text-align: justify" }
+With our unique combination of features and high connectivity of AirCare to other platforms, we can differentiate our way of conducting the maintenance process from our competitors. We reduce the amount of time spent on documentation by collecting all documentation in one place and by automizing non-critical documentation steps, while minimizon the human error component during airplane engine maintenance.
 <br /> 
 <br /> 
 
 ## Download <a name="download"></a>
-#### Are Democrats Really More Concerned About Climate Change Than Republicans?
 
-{: style="text-align: justify" }
-Language is rich in subtle signals and quotes can convey different connotations. Having gained a first understanding about how polarization is motivated by socio-political differences, we dive deeper using semantic analysis. Therefore, we use `Empath`, a tool developed at Stanford University that can generate and validate new lexical categories from a set of seed terms. We use `Empath` to validate whether Democrats are really more concerned about climate change than Republicans?
+*can we link our app download here??*
 
-<br />
+*can we link our read deck and slides here??*
 
-![Empath Bar Chart by Party](/assets/img/empath_topics_1_3.png){:class="displayed"}
-
-<br />
-{: style="text-align: justify" }
-As topic 2 is focussed around oil and its economic impact, we have excluded it for this analysis. We can not directly confirm our above hypotheses, that Democrats are more concerned about climate change than Republicans. However, we could observe the following: 
-
-- _Democrats_ are more likely to use extreme vocabulary when talking about climate change. Way more quotations of Democrats fall into categories such as _crisis_, _war_ and _help_
-
-- Quotations of _Democrats_ convey far more negavtively associated connotations than the ones of Republicans
-
-- _Republicans_ do not get tired of speaking about oil
-<br />
 <br />
 <br />
 
-## Final Words
 
-{: style="text-align: justify" }
-Even if our project only touched the surface of understanding the causes and consequences of media polarization, we learned a lot about how climate change is discussed in US media among Democrats and Republicans. We could validate common hypotheses, such as that Republicans mainly focus their thoughts around fossil fuels when speaking about climate change. Our analysis further showed that Democrats do not just speak more about climate change; they are also more worried about the effects of it on our future. This is expressed through the usage of extreme vocabulary with negative connotations. We were able to show that climate change is a highly polarized topic - especially within the Republican party. Finally, we could not find that the gender of a speaker influences neither the way nor the frequencies one speaks about climate change.
-<br />
-<br />
 
 {: style="text-align: center" }
 AirCare was realised in 2022 as part of the [Tech Challenge](https://academy.unternehmertum.de/programs/tech-challenge) at the [Technical University of Munich (TUM)](https://www.tum.de/en/)
