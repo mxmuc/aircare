@@ -69,7 +69,7 @@ Secondly, we support mechanics in the correct completion of repetitive tasks. Co
 Thirdly, the mixup of Parts and Instructions will be reduced with the use of AirCare. If a part is very similar to another part, we will show pictures to emphasize which part and hich specifc configuration to use. In the future, this will become even more hassle free: AI sensors will be able to scan the part directly from the app, to confirm that the right part is used. For the Instructions we follow a similar approach: The right instructions steps will be directly linked to a task, so that the mechanic will not have to spend any time on finding the right page in a lengthy manual.
 
 {: style="text-align: justify" }
-By controlling the processes and operations as well as granting a comprehensible and easy way of ensuring the right steps or the maintenance provess are completed, our customer save time and reources. And best of all, by being a digital solution and drastically reducing the amount of paper in the workshop, we are also environmentally friendly!
+By controlling the processes and operations as well as granting a comprehensible and easy way of ensuring the right steps or the maintenance process are completed, our customer save time and resources. AirCare makes can ensure, that errors during assembly are minimized. Thereby we increase the rate of successfull tests after maintenance. This means that the resources used during the test, oil, fuel and air, are used meaningfully and not wasted. And best of all, by being a digital solution and drastically reducing the amount of paper in the workshop, we are also environmentally friendly!
 <br />
 <br />
 
