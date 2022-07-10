@@ -34,7 +34,7 @@ We provide a digital and smart solution, that is especially tailored to fit the 
 {: style="text-align: justify" }
 With our App, we provide mechanics with all the details they need to know and track assembly progress to identify mistakes while they are being made. Hence, airplane enigne assembly will become more efficient. Human error as well as common problems like leakages of oil, fuel or air will be minimized and  errors during assembly will be reduced.
 
-#### Have a glimpse into our App!
+#### Have a Glimpse Into Our App!
 ![Have a glimpse into our App!](/assets/img/app_mockup1.png){:class="displayed"}
 
 {: style="text-align: justify" }

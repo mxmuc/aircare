@@ -15,10 +15,10 @@ full-width: true
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Problem: "#problem"
+  Problem & Customer Need: "#problem"
   Solution: "#solution"
   Customer Value Proposition: "#cvp"
-  Market: "#market"
+  Market & Differentiation: "#market"
   Download: "#download"
 
 # --- Logo --- #
