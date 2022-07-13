@@ -57,7 +57,7 @@ Our platform enables customers to digitally track their maintenance and the proc
 AirCare is a unique digital solution in the Maintenance, Repair and Overhaul (MRO) segment of engine maintenance. We can guarantee that the human error factor during assembly is minimized by providing a unique combination of three key benefits:
 
 #### Our Unique Selling Point
-![Our Unique Selling Point](/assets/img/USP.png){:class="displayed"}
+![Our Unique Selling Point](/assets/img/usp.png){:class="displayed"}
 
 {: style="text-align: justify" }
 Firstly, we can eliminate knowledge gaps of mechanics that might occur during assembly by integrating the assembly instructions in the form of mastercards directly into the tasks in AirCare's workflow. If the mechanics proceed to the next task, they will recieve reminders about critical steps and all information needed to complete the task in the most efficient way possible. If a mechanic wants to access more information, they can always have a look into the mastercard which is also linked to the specific steps. This ensures a high standard of task completion, while also reminding mechanics of the features of a task. In case a mastercard is updated, AirCare will automatically remind the enigneer to have look at the changes.
