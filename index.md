@@ -12,7 +12,7 @@ full-width: false
 Travelling by airplane is one of the fastest and most convenient ways to journey along long distances. To make flights as secure as possible, frequent maintenance is needed. As a vital part of the airplane, engines must go through maintenance either after a certain amount of flight hours or if damages occur.
 
 {: style="text-align: justify" }
-To conduct the maintenance, the airplane engine has to be dissassembled into all its parts. Thereafter, every part is checked, cleaned, repaired or replaced. Finally, the engine is reassembled and thoroughly tested. However, **75%** of all airplane engine test after maintenance fail due to leakages of air, oil or fuel. Most of these leakages are caused by human error during assembly. The four most common sources of these human errors are:
+To conduct the maintenance, the airplane engine has to be dissassembled into all its parts. Thereafter, every part is checked, cleaned, repaired or replaced. Finally, the engine is reassembled and thoroughly tested. However, **75%** of all airplane engine tests after maintenance fail due to leakages of air, oil or fuel. Most of these leakages are caused by human error during assembly. The four most common sources of these human errors are:
 * missed steps or steps done wrong during reassembly
 * use of wrong parts or configurations
 * use of damaged parts (e.g. damaged sealings)
@@ -83,9 +83,11 @@ In 2022 the global MRO market will be valued at USD 78.6 billion. With a project
 {: style="text-align: justify" }
 To find more information about the MRO market size and segments, have a look at the [Oliver Wyman global fleet & MRO market forecast 2022–2032](https://www.oliverwyman.com/our-expertise/insights/2022/feb/global-fleet-and-mro-market-forecast-2022-2032.html).
 <br />
+<br />
 
 #### Comparison of AirCare Key Differentiation Aspects
 ![Comparison of AirCare Key Differentiation Aspects](/assets/img/Competitor_comparison.png){:class="displayed"}
+<br />
 <br />
 
 {: style="text-align: justify" }
