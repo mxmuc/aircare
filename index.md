@@ -76,16 +76,20 @@ By controlling the processes and operations as well as granting a comprehensible
 ## Market & Differentiation <a name="market"></a>
 
 {: style="text-align: justify" }
-In 2022 the global MRO market will be valued at USD 78.6 billion. With a projected growth of 61.5% over the next 10 years, the global MRO market is estimated to grow to a total of USD 126.9 billion by 2032. Within the global MRO market, enigne maintenance is the segment with the highest growth over the next decade. While being valued at USD 34.1 billion in 2022, the segment is projected to grow by 91.8% to a total of USD 65.4 billion by 2032. To find more information about the MRO market size and segments, have a look at the [Oliver Wyman global fleet & MRO market forecast 2022–2032](https://www.oliverwyman.com/our-expertise/insights/2022/feb/global-fleet-and-mro-market-forecast-2022-2032.html).
+In 2022 the global MRO market will be valued at USD 78.6 billion. With a projected growth of 61.5% over the next 10 years, the global MRO market is estimated to grow to a total of USD 126.9 billion by 2032. Within the global MRO market, enigne maintenance is the segment with the highest growth over the next decade. While being valued at USD 34.1 billion in 2022, the segment is projected to grow by 91.8% to a total of USD 65.4 billion by 2032.
+
+![Market Size](/assets/img/market.png){:class="displayed"}
 
 {: style="text-align: justify" }
-By Interviewing Industry Experts, we were able to differentiate AirCare in the MRO Market from solutions used by our competitors. In cooperation with SAP, GE Aviation was able to develop a maintenance tracking platform a few years ago. However, AirCare is able to differentiate itself and improve the customer value compared to competitors solutions: we offer IOT connectivity, integrated maintenance instructions for check lists and integrated feedback for mechanics.
+To find more information about the MRO market size and segments, have a look at the [Oliver Wyman global fleet & MRO market forecast 2022–2032](https://www.oliverwyman.com/our-expertise/insights/2022/feb/global-fleet-and-mro-market-forecast-2022-2032.html).
+<br />
 
 #### Comparison of AirCare Key Differentiation Aspects
 ![Comparison of AirCare Key Differentiation Aspects](/assets/img/Competitor_comparison.png){:class="displayed"}
+<br />
 
 {: style="text-align: justify" }
-With our unique combination of features and high connectivity of AirCare to other platforms, we can differentiate our way of conducting the maintenance process from our competitors. We reduce the amount of time spent on documentation by collecting all task confirmation and outputs in one place and by automizing non-critical documentation steps, while minimizing the human error component during airplane engine maintenance.
+By interviewing Industry Experts, we were able to differentiate AirCare in the MRO Market from solutions used by our competitors. In cooperation with SAP, GE Aviation was able to develop a maintenance tracking platform a few years ago. However, AirCare is able to differentiate itself and improve the customer value compared to competitors solutions: we offer **IOT connectivity**, **integrated maintenance instructions for check lists** and **integrated feedback for mechanics**. We reduce the amount of time spent on documentation by collecting all task confirmation and outputs in one place and by automizing non-critical documentation steps, while minimizing the human error component during airplane engine maintenance.
 <br /> 
 <br /> 
 
