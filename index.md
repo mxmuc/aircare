@@ -97,9 +97,7 @@ By interviewing Industry Experts, we were able to differentiate AirCare in the M
 
 ## Download <a name="download"></a>
 
-*can we link our app download here??*
-
-*can we link our read deck and slides here??*
+[**Access the AirCare App here**](http://aircare.neumeyer.it:3000/)
 
 <br />
 <br />
