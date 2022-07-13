@@ -98,12 +98,8 @@ By interviewing Industry Experts, we were able to differentiate AirCare in the M
 ## Download <a name="download"></a>
 
 [**Access the AirCare App here**](http://aircare.neumeyer.it:3000/){:target="\_blank"}
-
-<object data="/assets/pdf/d2_ReadDeck_MTU_tc_22s.pdf" width="1000" height="600" type='application/pdf'></object>
 <br />
 <br />
-
-
 
 {: style="text-align: center" }
 AirCare was realised in 2022 as part of the [Tech Challenge](https://academy.unternehmertum.de/programs/tech-challenge) at the [Technical University of Munich (TUM)](https://www.tum.de/en/)
