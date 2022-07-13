@@ -99,6 +99,7 @@ By interviewing Industry Experts, we were able to differentiate AirCare in the M
 
 [**Access the AirCare App here**](http://aircare.neumeyer.it:3000/)
 
+<object data="/assets/pdf/d2_ReadDeck_MTU_tc_22s.pdf" width="1000" height="600" type='application/pdf'></object>
 <br />
 <br />
 
